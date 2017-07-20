@@ -422,3 +422,9 @@ header.masthead {
 container-incons{
     margin-left: 2em;
 }
+
+.patent{
+    font-style: italic;
+    font-size: xx-small;
+    text-align: left;
+}
