@@ -350,10 +350,10 @@ header.masthead {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid rgb(6,149,153);
+  border: 2px solid rgb(0,51,47);
   border-radius: 100% !important;
   font-size: 40px;
-  color: rgb(6,149,153);
+  color: rgb(0,51,47);
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -362,9 +362,9 @@ header.masthead {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: rgb(0,51,47);
+  color: rgb(6,149,153)
   background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgb(0,51,47);
+    border: 2px solid rgb(6,149,153);
 }
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
@@ -427,4 +427,26 @@ container-incons{
     font-style: italic;
     font-size: xx-small;
     text-align: left;
+}
+
+
+input[type="submit"]{
+    background: rgba(255, 255, 255, 0.7);
+    color: rgb(0,51,47);
+    padding: 0.8em;
+    font-size: 20px;
+    border: 2px solid rgb(0,51,47);
+    font-weight: bold;
+}
+
+input[type="email"]{
+    border: 2px solid rgb(0,51,47);
+    margin-bottom: 0.4em;
+    width: 33%;
+    text-align: center;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    color: rgb(6,149,153);
 }
